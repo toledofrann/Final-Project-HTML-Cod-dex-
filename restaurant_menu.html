@@ -2,6 +2,10 @@
 <html>
   <head>
     <style>
+      hr {
+        width: 95%;
+        margin: auto;
+      }
     </style>
     <title>
       <h1>Name of the restarurant</h1>
@@ -37,6 +41,7 @@
             Price:<i>$10</i>
           </p>
         </article>
+        <br/><hr/>
         <article>
           <h3>Ravioli</h3>
           <img
@@ -50,6 +55,7 @@
             Price:<i>$15</i>
           </p>
         </article>
+        <br/><hr/>
         <article>
           <h3>Gnocchi</h3>
           <img 
@@ -63,25 +69,28 @@
             Price:<i>$25</i>
           </p>
         </article>
+        <br/><hr/>
       </section>
       <section>
         <h2>Place Your Order</h2>
         <form>
-          <label for = "spaghetti_plate">Spaghetti</label><input type = "number" min = "0" id = "spaghetti_plate" />
+          <label for = "spaghetti_plate">Spaghetti</label><br><input type = "number" min = "0" id = "spaghetti_plate" />
           <br>
           <textarea id = "spaghetti_plate" placeholder= "Do you want something specific? Write it here!" rows="5" cols="30"></textarea>
           <br><br>
-          <label for = "ravioli_plate">Ravioli</label><input type = "number" min = "0" id = "ravioli_plate"/>
+          <label for = "ravioli_plate">Ravioli</label><br><input type = "number" min = "0" id = "ravioli_plate"/>
           <br>
           <textarea id = "ravioli_plate" placeholder = "Do you want something specific? Write it here!" rows ="5" cols ="30"></textarea>
           <br><br>
-          <label for = "gnocchi_plate">Gnocchi</label><input type = "number" min = "0" id = "gnocchi_plate"/>
+          <label for = "gnocchi_plate">Gnocchi</label><br><input type = "number" min = "0" id = "gnocchi_plate"/>
           <br>
           <textarea id = "gnocchi_plate" placeholder = "Do you want something specific? Write it here!" rows ="5" cols ="30"></textarea>
           <br><br>
           <h3>Sides/Add-ons</h3>
           <label for = "bread">Bread</label><input type = "checkbox" name = "bread" value ="Bread"/>
-          <label for = "cheese">Cheese</label><input type = "checkbox" name = "cheese" value = "Cheese"/>
+          <br>
+          <label for = "cheese">Cheese</label>><input type = "checkbox" name = "cheese" value = "Cheese"/>
+          <br>
           <label for = "salt">Salt</label><input type = "checkbox" name = "salt" value = "Salt"/>
           <br><br>
           <input type = "submit" value = "Go To Checkout">
